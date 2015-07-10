@@ -8,21 +8,21 @@ window.onload=function() {
     document.body.appendChild(box);
     box.className = ("box" + i);
 
-    if (i === 4 || i === 7 || i === 10) {
-      box.style.clear = "left";
-    }
-  // console.log(box);
-  }
+      if (i === 4 || i === 7 || i === 10) {
+        box.style.clear = "left";
+      }
 
-  //Make my buttons
-  for (var j = 0; j < array.length; j++) {
-  }
+    //Make divs clickable and make X's and O's
     var counter = 0;
-    box.addEventListener("click", function() {
+    box.addEventListener("click", function(){
       counter += 1;
-      box.innerHTML = (array[counter - 1]);
-      if (counter > array.length){
-        alert("Draw! Please start over");
+      for (var j = 0; j < array.length; j++) {
+        console.log(counter);
+        this.innerHTML = (array[counter - 1]);
+      }
+      if (counter > array.length - 1){
+      alert("Draw! Please start over");
       }
     });
+  }
 }

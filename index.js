@@ -39,10 +39,11 @@ window.onload=function() {
 
       var combinations = [[array[0], array[0], array[0]],
       ]
+
       // O Wins First Row
-      // if (b1 === array[0] && b2 === array[0] && b3 === array[0]){
-      //   alert("X Wins the first row!")
-      // }
+      if (b1 === array[1] && b2 === array[1] && b3 === array[1]){
+        alert("O Wins the first row!")
+      }
 
       // X Wins Second Row
       // O Wins Second Row
@@ -59,23 +60,8 @@ window.onload=function() {
       // X Wins Diagonal right - Left
       // O Wins Diagonal right - left
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       if (b4 === array[0] && b5 === array[0] && b6 === array[0]){
-        alert("X Wins the first row!")
+        alert("X Wins the second row!")
       }
 
       if (counter > array.length - 1){

@@ -113,7 +113,8 @@ window.onload=function() {
         alert("O Wins diagonally!")
       }
 
-
+//create AI
+//make logic way less janky
 
       if (counter > array.length - 1){
       alert("Draw! Please start over");

@@ -21,11 +21,9 @@ window.onload=function() {
       var b1 = (document.getElementsByClassName("box1")[0].innerHTML)
       var b2 = (document.getElementsByClassName("box2")[0].innerHTML)
       var b3 = (document.getElementsByClassName("box3")[0].innerHTML)
-
       var b4 = (document.getElementsByClassName("box4")[0].innerHTML)
       var b5 = (document.getElementsByClassName("box5")[0].innerHTML)
       var b6 = (document.getElementsByClassName("box6")[0].innerHTML)
-
       var b7 = (document.getElementsByClassName("box7")[0].innerHTML)
       var b8 = (document.getElementsByClassName("box8")[0].innerHTML)
       var b9 = (document.getElementsByClassName("box9")[0].innerHTML)
@@ -114,7 +112,7 @@ window.onload=function() {
       }
 
 //create AI
-//make logic way less janky
+//make logic way less janky/fix it allllllllllll
 
       if (counter > array.length - 1){
       alert("Draw! Please start over");
